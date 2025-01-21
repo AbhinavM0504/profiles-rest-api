@@ -46,7 +46,7 @@ class UserProfile(AbstractBaseUser,PermissionsMixin):
 
     def get_short_name(self):
         """Retrieve Short Name Of User"""
-        return self.Name
+        return self.name
 
     def __str__(self):
         """Return String Representation Of The User"""
